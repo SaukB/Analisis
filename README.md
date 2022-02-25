@@ -6,7 +6,7 @@ Estrategias y proyectos de ley para aumentar el empleo en periodo de pandemia en
 
 Este trabajo tiene como objetivo demostrar que durante el periodo de pandemia el departamento del atlántico fue capaz de aumentar la empleabilidad valiéndose de varias leyes y estrategias de gobierno para llevar este objetico a claro cabe aclarar que estas estrategias no disminuyeron de manera importante el desempleo en este periodo de tiempo, pero si beneficiaron a muchas personas y con ellos muchas familias tuvieron un ingreso económico
 
-¿Cuál fue el impacto que tuvo la ley?
+¿Cuál fue acogida que tuvo en pandemia?
 ¿A cuántas personas beneficio?
 ¿Qué niveles de estudios tuvieron mayores beneficiarios?
 ¿Porcentaje de aumento con respecto al año anterior?

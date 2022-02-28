@@ -47,3 +47,5 @@ Sector : Función Pública
 Categoría :	Economía y Finanzas
 Ultima Actualización	: 19 de enero de 2022
 Responsable de veracidad 	: Alcaldía Distrital de Barranquilla
+
+#pip install pandas-alive

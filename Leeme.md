@@ -65,10 +65,12 @@ Departamento : Atlántico
 Sector : Función Pública
 Categoría :	Economía y Finanzas
 Ultima Actualización	: 19 de enero de 2022
-Responsable de veracidad 	: Alcaldía Distrital de Barranquilla
+Responsable de veracidad 	: Alcaldía Distrital de Barranquilla.
+
+
 ![1](https://user-images.githubusercontent.com/59390917/157063913-4738c357-c48b-4013-a81d-773c6d6230fd.PNG)
 
-1. 1.	Total de la población atendida por genero durante este periodo de dos año que comprenden desde 2020 a 2021 en la totalidad de ambos años .
+1. 	Total de la población atendida por genero durante este periodo de dos año que comprenden desde 2020 a 2021 en la totalidad de ambos años .
 
 
 ![Atencion por genero total](https://user-images.githubusercontent.com/59390917/157062488-2d1be0c1-09d0-437f-b4c3-1c92ecfd9de1.png)

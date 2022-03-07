@@ -76,10 +76,18 @@ pandas
 matplotlib
 seaborn
 ```
+# METODOLOGIA.
+
+**Paso 1:**  Obtener la base de datos ofrecida por datos.gov para iniciar el análisis de datos.
+
+Para obtener la base de datos se ingresa desde un navegador y se ingresa el siguiente enlace https://bit.ly/3MFHABk se exporta la base de datos seleccionando el botón de exportar y a continuación saldrá un menú para escoger el formato en nuestro caso escogemos el formato csv.
+
+**Paso 2:**  Refinar la información para hallar la población de estudio (primer empleo).
 
 
 
-# BIBLIOGRAFÍA
+
+# BIBLIOGRAFÍA.
 
 **Artículo sobre ley del primer empleo en Colombia - Noticias RCN**
 

@@ -82,6 +82,7 @@ seaborn
 # BIBLIOGRAFÍA
 
 **Artículo sobre ley del primer empleo en Colombia - Noticias RCN**
+
 https://www.noticiasrcn.com/economia/ley-del-primer-empleo-puntos-clave-en-el-proceso-de-reactivacion-378606
 
 
@@ -92,5 +93,7 @@ https://www.unbosque.edu.co/centro-informacion/noticias/como-afecta-la-crisis-de
 **Fuente de base de datos - datos.gov.co**
 
 https://www.datos.gov.co/Econom-a-y-Finanzas/Ruta-Empleabilidad-Secretar-a-de-Desarrollo-Econ-m/qh5k-tnjm
+
+
 
 #pip install pandas-alive

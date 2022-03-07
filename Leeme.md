@@ -1,5 +1,6 @@
 # Analisis
 
+
 PLANTEAMIENTO DEL PROBLEMA
  
 
@@ -10,11 +11,16 @@ A raíz de esta causa el desempleo aumento en esta población que en la actualid
 El problema es el aumento del desempleo en la población en los municipios del departamento del atlántico, mediante este trabajo se busca hallar el número de personas beneficiarias que pudieron acceder a su primer empleo.
 
 
+
 PREGUNTA PROBLEMA
+
+
 
 ¿cómo se vieron beneficiados los municipios del departamento del atlántico durante el periodo en pandemia por la ruta de empleabilidad?	
 
-OBJETIVOS
+
+
+OBJETIVOS.
 
 
 Objetivo general 
@@ -23,7 +29,10 @@ Objetivo general
 Evaluar el impacto que tuvo la obtencion del primer empleo en el periodo de pandemia en el departamento del atlántico en la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
 
 
+
 Objetivo especifico 
+
+
 
 
 •	Obtener la base de datos ofrecida por datos.gov para iniciar el análisis de datos 
@@ -38,7 +47,12 @@ Objetivo especifico
 
 •	Implementar graficas para representar los periodos de años, características de la población y lugar de residencia.
 
+
+
 RESULTADO
+
+
+
 
 CARACTERÍSTICAS Y ORIGEN DE LA BASE DE DATOS
 
@@ -52,5 +66,10 @@ Sector : Función Pública
 Categoría :	Economía y Finanzas
 Ultima Actualización	: 19 de enero de 2022
 Responsable de veracidad 	: Alcaldía Distrital de Barranquilla
+
+![descargar](https://user-images.githubusercontent.com/59390917/157062326-898a8a42-d068-4f38-bfac-19af34c718bd.png)
+
+
+
 
 #pip install pandas-alive

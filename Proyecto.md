@@ -12,8 +12,7 @@ El problema es el aumento del desempleo en la población en los municipios del d
 
 PREGUNTA PROBLEMA
 
-¿Cuáles fueron los factores que ayudaron a un incremento de la empleabilidad de las personas que obtuvieron su primer empleo?
-	
+¿cómo se vieron beneficiados los municipios del departamento del atlántico durante el periodo en pandemia por la ruta de empleabilidad?	
 
 OBJETIVOS
 
@@ -21,22 +20,23 @@ OBJETIVOS
 Objetivo general 
 
 
-Evaluar las medidas que el departamento del atlántico tomo para garantizar el primer empleo a la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
+Evaluar el impacto que tuvo la obtencion del primer empleo en el periodo de pandemia en el departamento del atlántico en la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
 
 
 Objetivo especifico 
 
 
-•	Analizar las bases de datos ofrecidas por el departamento del atlántico y obtener un diagnóstico de la acogida que tuvieron las medidas implementadas para garantizar el acceso al primer empleo.
+•	Obtener la base de datos ofrecida por datos.gov para iniciar el análisis de datos 
 
-•	Hallar cual fue el impacto de contratación de la población beneficiaria teniendo en cuenta la edad, el sexo y el nivel educativo de la muestra seleccionada.
+•	Refinar la información para hallar la población de estudio (primer empleo).
+
+•	Analizar cuál fue el impacto de contratación de la población beneficiaria teniendo en cuenta la edad, el sexo y el nivel educativo de la muestra seleccionada.
 
 •	Calcular el nivel de acceso a la estrategia y cuál fue el mayor índice de porcentaje de contratación por municipio.
 
 •	Comparar los resultados obtenidos de la contratación en los años 2020 y 2021 para determinar el balance en la cantidad de beneficiarios atendidos por municipios.
 
 •	Implementar graficas para representar los periodos de años, características de la población y lugar de residencia.
-
 
 RESULTADO
 

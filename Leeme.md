@@ -1,5 +1,4 @@
-
-# PLANTEAMIENTO DEL PROBLEMA
+# PLANTEAMIENTO DEL PROBLEMA 	:kaaba:
  
 
 
@@ -10,7 +9,7 @@ El problema es el aumento del desempleo en la población en los municipios del d
 
 
 
-# PREGUNTA PROBLEMA
+# PREGUNTA PROBLEMA :grey_question:	
 
 
 
@@ -20,14 +19,14 @@ El problema es el aumento del desempleo en la población en los municipios del d
 
 
 
-# Objetivo general 
+# Objetivo general.  :bookmark_tabs:	
 
 
 Evaluar el impacto que tuvo la obtencion del primer empleo en el periodo de pandemia en el departamento del atlántico en la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
 
 
 
-# Objetivo especifico 
+# Objetivo especifico.  :dart:	
 
 
 
@@ -46,7 +45,7 @@ Evaluar el impacto que tuvo la obtencion del primer empleo en el periodo de pand
 
 
 
-# RESULTADO.
+# RESULTADO.  :green_book:	
 
 
 
@@ -65,11 +64,11 @@ Responsable de veracidad 	: Alcaldía Distrital de Barranquilla.
 
 ![1](https://user-images.githubusercontent.com/59390917/157063913-4738c357-c48b-4013-a81d-773c6d6230fd.PNG)
 
-**Lenguaje de programacion utilizado.**
+**Lenguaje de programacion utilizado.**   :computer:	
 
-Python
+Python  :snake:	
 
-**Librerias utilizadas**
+**Librerias utilizadas**  :books:	
 ```
 numpy
 pandas
@@ -87,7 +86,7 @@ Para obtener la base de datos se ingresa desde un navegador y se ingresa el sigu
 
 
 
-# BIBLIOGRAFÍA.
+# BIBLIOGRAFÍA. :pencil:
 
 **Artículo sobre ley del primer empleo en Colombia - Noticias RCN**
 
@@ -105,3 +104,4 @@ https://www.datos.gov.co/Econom-a-y-Finanzas/Ruta-Empleabilidad-Secretar-a-de-De
 
 
 #pip install pandas-alive
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md

@@ -7,7 +7,12 @@ PLANTEAMIENTO DEL PROBLEMA
 La empleabilidad en el departamento del atlántico ha disminuido durante el periodo en pandemia que ha afectado diferentes campos como lo es la contratación de personal practicante egresado de instituciones educativas, así como la vinculación de personas que se desempeña en campos laborales de manera independientes con experiencia, pero con carencias de estudios certificados.
 A raíz de esta causa el desempleo aumento en esta población que en la actualidad no cuentan con ingresos fijos mensuales para su sustento.
 
-El problema es el aumento del desempleo en la población en los municipios del departamento del atlántico en edades que oscilan entre los 18 a 50 años, siendo la población en el rango de 18 a 25 años la más afectada para acceder a su primer empleo cuya tasa de desempleo y dificultades para vincular a una empresa son significativamente mayores a otros rangos de edades.
+El problema es el aumento del desempleo en la población en los municipios del departamento del atlántico, mediante este trabajo se busca hallar el número de personas beneficiarias que pudieron acceder a su primer empleo.
+
+
+PREGUNTA PROBLEMA
+
+¿Cuáles fueron los factores que ayudaron a un incremento de la empleabilidad de las personas que obtuvieron su primer empleo?
 	
 
 OBJETIVOS

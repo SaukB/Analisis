@@ -22,11 +22,11 @@ El problema es el aumento del desempleo en la población en los municipios del d
 # Objetivo general.  :bookmark_tabs:	
 
 
-Evaluar el impacto que tuvo la obtencion del primer empleo en el periodo de pandemia en el departamento del atlántico en la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
+Evaluar el impacto que tuvo la obtención del primer empleo en el periodo de pandemia en el departamento del atlántico en la población egresada de las diferentes instituciones educativas y la población que transita del empleo informal al empleo formal, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
 
 
 
-# Objetivo especifico.  :dart:	
+# Objetivo específico.  :dart:	
 
 
 
@@ -64,11 +64,11 @@ Responsable de veracidad 	: Alcaldía Distrital de Barranquilla.
 
 ![1](https://user-images.githubusercontent.com/59390917/157063913-4738c357-c48b-4013-a81d-773c6d6230fd.PNG)
 
-**Lenguaje de programacion utilizado.**   :computer:	
+**Lenguaje de programación utilizado.**   :computer:	
 
 Python  :snake:	
 
-**Librerias utilizadas**  :books:	
+**Librerías utilizadas**  :books:	
 ```
 numpy
 pandas
@@ -83,6 +83,47 @@ Para obtener la base de datos se ingresa desde un navegador y se ingresa el sigu
 
 **Paso 2:**  Refinar la información para hallar la población de estudio (primer empleo).
 
+Inicialmente se crea un dataframe donde vamos a guardar la base datos que obtuvimos anteriormente , a continuación, se filtra la información que esta tiene para hallar la población la cual va a ser nuestro enfoque de estudio.
+
+creamos dataframe donde copiamos la base de datos obtenida en formato csv
+```
+data = pd.read_csv('empleo.csv')
+```
+
+se crea segundo dataframe donde está la información ya filtrada 
+```
+ndata=data[data['Situación Laboral']=='Primer Empleo']
+```
+se renombran los encabezados de las columnas para mejorar su llamado al momento de analizar
+
+```
+mdatos =ndata.rename (columns={
+    "Tipo Documento" :"Tipo_Documento",
+    "Canal de Registro":"Canal_Registro",
+    "Edad":"Edad",
+    'Género': 'Genero',
+    "Nivel de Estudio": "Nivel_Estudio",
+    'Título Homologado' :'Titulo_Homologado',
+    'Ciudad de Residencia':'Ciudad_Residencia',
+    'Fecha Registro':'Fecha_Registro',
+    'Programa de Gobierno':'Programa_Gobierno',
+    'Condiciones Especiales':'Condiciones_Especiales',
+    'Situación Laboral':'Situación_Laboral',
+    'Fecha Actualización':'Fecha_Actualizacion',
+    'Zona':'Zona',
+    'Mes':'Mes',
+    'Año':"anio",
+    'Punto Atención':'Punto_Atencion',
+    'Rango Edad':'Rango_Edad'
+})
+```
+
+se procede hacer separacion por años y guardarla de manera individual.
+
+```
+anio2021=mdatos[mdatos['anio']=="2,021"]
+anio2020=mdatos[mdatos['anio']=="2,020"]
+```
 
 
 
@@ -93,7 +134,7 @@ Para obtener la base de datos se ingresa desde un navegador y se ingresa el sigu
 https://www.noticiasrcn.com/economia/ley-del-primer-empleo-puntos-clave-en-el-proceso-de-reactivacion-378606
 
 
-**Artículo sobre crisis económica debido al covid - Universidad del bosque**
+**Artículo sobre crisis económica debido al COVID - Universidad del bosque**
 
 https://www.unbosque.edu.co/centro-informacion/noticias/como-afecta-la-crisis-del-covid-19-la-economia-colombiana
 

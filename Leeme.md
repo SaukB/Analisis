@@ -85,16 +85,16 @@ Para obtener la base de datos se ingresa desde un navegador y se ingresa el sigu
 
 Inicialmente se crea un dataframe donde vamos a guardar la base datos que obtuvimos anteriormente , a continuación, se filtra la información que esta tiene para hallar la población la cual va a ser nuestro enfoque de estudio.
 
-creamos dataframe donde copiamos la base de datos obtenida en formato csv
+* creamos dataframe donde copiamos la base de datos obtenida en formato csv
 ```
 data = pd.read_csv('empleo.csv')
 ```
 
-se crea segundo dataframe donde está la información ya filtrada 
+* se crea segundo dataframe donde está la información ya filtrada 
 ```
 ndata=data[data['Situación Laboral']=='Primer Empleo']
 ```
-se renombran los encabezados de las columnas para mejorar su llamado al momento de analizar
+* se renombran los encabezados de las columnas para mejorar su llamado al momento de analizar
 
 ```
 mdatos =ndata.rename (columns={
@@ -118,7 +118,7 @@ mdatos =ndata.rename (columns={
 })
 ```
 
-se procede hacer separacion por años y guardarla de manera individual.
+* se procede hacer separacion por años y guardarla de manera individual.
 
 ```
 anio2021=mdatos[mdatos['anio']=="2,021"]

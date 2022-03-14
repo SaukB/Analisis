@@ -134,7 +134,7 @@ DF_FILTRO =DF_FILTRO.RENAME (COLUMNS={
 })
 ```
 	 
-*	se procede hacer separación por años y guardarla de manera individual.
+* se procede hacer separación por años y guardarla de manera individual.
 ```
 ANIO2021=MDATOS[MDATOS['ANIO']=="2,021"]
 ANIO2020=MDATOS[MDATOS['ANIO']=="2,020"]
@@ -154,7 +154,7 @@ PLT.SHOW()
 ``` 
 
 
-Se separa la información años utilizando los dataframe creados anteriormente.
+* Se separa la información años utilizando los dataframe creados anteriormente.
 ```
 F, AX =PLT.SUBPLOTS(1,2 , FIGSIZE=(18,8))
 PROGRAMA = ANIO2020.GROUPBY("RANGO_EDAD")["SITUACIÓN_LABORAL"].COUNT()
@@ -203,14 +203,14 @@ DF_FILTRO.GROUPBY(["ANIO","GENERO"])["SITUACIÓN_LABORAL"].COUNT()
 
 ```
  
-Se muestra la población por género en total atendida sin distinción de años.
+* Se muestra la población por género en total atendida sin distinción de años.
 ```
 DF_FILTRO.GENERO.VALUE_COUNTS().PLOT.PIE(EXPLODE =[0,0.1] , SHADOW =TRUE,STARTANGLE=90,  FIGSIZE =(18,8), COLORS=COLORS)
 PLT.TITLE('CONTRATACIÓN POR GENERO',FONTDICT= FONT1)
 PLT.SHOW()
 DF_FILTRO.GROUPBY(["GENERO"])["SITUACIÓN_LABORAL"].COUNT()
  ```
-*	Histograma por año 2020 y 2021 sobre personas contratadas durante cada mes de cada año.
+* Histograma por año 2020 y 2021 sobre personas contratadas durante cada mes de cada año.
 
 ```
 COLORS = ['#F7D358','#0B3861']
@@ -228,7 +228,7 @@ PLT.SHOW
 ```
  
 
-Se compara la información de manera paralela
+* Se compara la información de manera paralela
 
 ```
 PLT.FIGURE(FIGSIZE=(30,10))
@@ -241,7 +241,7 @@ PLT.SHOW()
 ``` 
 
 
-Beneficiarios en todos los municipios del departamento del atlántico.
+* Beneficiarios en todos los municipios del departamento del atlántico.
 
 ```
 PLT.FIGURE(FIGSIZE=(10,5))
@@ -256,7 +256,7 @@ PLT.SHOW()
  ```
 
  
-Beneficiarios en todos los municipios del departamento del atlántico sin la capital .
+* Beneficiarios en todos los municipios del departamento del atlántico sin la capital .
 
 ```
 NB1=DF_FILTRO[DF_FILTRO['CIUDAD_RESIDENCIA']!="BARRANQUILLA"]
@@ -280,7 +280,7 @@ PLT.SHOW()
 
 
 
-listado de beneficiarios por departamento.
+* listado de beneficiarios por departamento.
 
 ```
 TABL1=DF_FILTRO.GROUPBY(["CIUDAD_RESIDENCIA"])["SITUACIÓN_LABORAL"].COUNT()
@@ -298,4 +298,17 @@ También se puede observar a través de los resultados que barranquilla al ser l
 
 Contratación por nivel educativo 
 
+# BIBLIOGRAFÍA
+
+
+
+
+### Artículo sobre crisis económica debido al covid - Universidad del bosque
+
+https://www.unbosque.edu.co/centro-informacion/noticias/como-afecta-la-crisis-del-covid-19-la-economia-colombiana	
+
+
+### Fuente de base de datos - datos.gov.co
+
+https://www.datos.gov.co/Econom-a-y-Finanzas/Ruta-Empleabilidad-Secretar-a-de-Desarrollo-Econ-m/qh5k-tnjm	
 

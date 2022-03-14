@@ -38,15 +38,15 @@ Evaluar como la ruta de la empleabilidad del departamento del atlántico facilit
 ## Objetivo especifico
 
 
-•	Obtener la base de datos ofrecida por datos.gov para iniciar el análisis de datos 
+* Obtener la base de datos ofrecida por datos.gov para iniciar el análisis de datos 
 
-•	Refinar la información para hallar la población de estudio (Empleados).
+* Refinar la información para hallar la población de estudio (Empleados).
 
-•	Analizar los datos obtenidos.
+* Analizar los datos obtenidos.
 
-•	Comparar los resultados obtenidos de la contratación en los años 2020 y 2021 para determinar la población beneficiaria durante estos periodos de tiempo.
+* Comparar los resultados obtenidos de la contratación en los años 2020 y 2021 para determinar la población beneficiaria durante estos periodos de tiempo.
 
-•	Implementar graficas para representar los periodos de años, características de la población y lugar de residencia.
+* Implementar graficas para representar los periodos de años, características de la población y lugar de residencia.
 
 
 # METODOLOGIA.

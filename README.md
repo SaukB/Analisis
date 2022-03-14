@@ -111,7 +111,7 @@ DATA.COLUMNS
 ```
 
  
-*	se refinan los datos renombrando los encabezados de las columnas para mejorar su llamado al momento de analizar.
+* se refinan los datos renombrando los encabezados de las columnas para mejorar su llamado al momento de analizar.
 ```
 DF_FILTRO =DF_FILTRO.RENAME (COLUMNS={    
 "TIPO DOCUMENTO" :"TIPO_DOCUMENTO",
@@ -152,6 +152,7 @@ PLT.XLABEL('CANTIDAD BENEFICIARIOS',FONTDICT=FONT2)
 PLT.FIGURE( FIGSIZE =(18,8))
 PLT.SHOW()
 ``` 
+<img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/beneficiario%20por%20edad.png" width="1000px" align="center">
 
 
 * Se separa la información años utilizando los dataframe creados anteriormente.
@@ -172,6 +173,8 @@ AX[1].SET_YLABEL("RANGO DE EDADES", FONTDICT= FONT2)
 AX[1].SET_XLABEL('CANTIDAD BENEFICIARIOS',FONTDICT=FONT2)
 PLT.SHOW()
  ```
+<img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/beneficiario%20por%20edad%202020%20-%202021.png" width="1000px" align="center">
+
 
 *	Se realiza también el análisis para determinar los niveles educativos de la población beneficiaria.
 
@@ -182,6 +185,7 @@ PLT.GRID(B = TRUE, COLOR ='GREY',LINESTYLE ='-.', LINEWIDTH = 0.5,ALPHA = 0.6)
 PLT.SHOW()
 
  ```
+<img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/nivel%20educativo.png" width="1000px" align="center">
 
 
 
@@ -202,7 +206,8 @@ PLT.SHOW
 DF_FILTRO.GROUPBY(["ANIO","GENERO"])["SITUACIÓN_LABORAL"].COUNT()
 
 ```
- 
+ <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Atencion%20por%20genero%20a%C3%B1o.png" width="1000px" align="center">
+
 * Se muestra la población por género en total atendida sin distinción de años.
 ```
 DF_FILTRO.GENERO.VALUE_COUNTS().PLOT.PIE(EXPLODE =[0,0.1] , SHADOW =TRUE,STARTANGLE=90,  FIGSIZE =(18,8), COLORS=COLORS)
@@ -210,6 +215,8 @@ PLT.TITLE('CONTRATACIÓN POR GENERO',FONTDICT= FONT1)
 PLT.SHOW()
 DF_FILTRO.GROUPBY(["GENERO"])["SITUACIÓN_LABORAL"].COUNT()
  ```
+  <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Atencion%20por%20genero%20total.png" width="1000px" higth="300px" align="center">
+ 
 * Histograma por año 2020 y 2021 sobre personas contratadas durante cada mes de cada año.
 
 ```
@@ -226,7 +233,7 @@ AX[1].SET_XLABEL('MESES', FONTDICT = FONT2)
 AX[1].GRID(B = TRUE, COLOR ='GREY',LINESTYLE ='-.', LINEWIDTH = 0.5,ALPHA = 0.6)
 PLT.SHOW
 ```
- 
+   <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/empleabilidad%20a%C3%B1o%202020-2021.png" width="1000px" align="center">
 
 * Se compara la información de manera paralela
 
@@ -239,7 +246,7 @@ PLT.LEGEND()
 PLT.GRID(B = TRUE, COLOR ='GREY',LINESTYLE ='-.', LINEWIDTH = 0.5,ALPHA = 0.6)
 PLT.SHOW()
 ``` 
-
+ <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/empleabilidad%20a%C3%B1o%202020-2021%20comparativa.png" width="1000px" align="center">
 
 * Beneficiarios en todos los municipios del departamento del atlántico.
 

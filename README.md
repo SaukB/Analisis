@@ -323,12 +323,14 @@ TABL1=df_filtro.GROUPBY(["CIUDAD_RESIDENCIA"])["SITUACIÓN_LABORAL"].COUNT()
 |USIACURÍ | 2 |
 
 
+
+
 #   CONCLUSIÓN 
 
-Finalmente, luego de realizar el refinamiento de la información y  terminado el análisis se puede demostrar que “Ruta Empleabilidad” del departamento del atlántico ayudo en menor medida a mitigar el impacto que tuvo la pandemia en el desempleo, beneficiando a 2569 beneficiarios en total a lo largo de los dos años (2020-2021), también se logra identificar que el numero de personas de sexo femenino contratado fue mayor al sexo masculino teniendo 1396 y 1191 personas contratadas respectivamente, adicionalmente se evidencia que mayoritariamente la población contratada este en el rango de edad de 18 – 28 años de edad siendo 1844 el número de contratados representando el 71% de toda la población atendida a lo largo de estos dos años.
+Finalmente, luego de realizar el refinamiento de la información y  terminado el análisis se puede demostrar que “Ruta Empleabilidad” del departamento del atlántico ayudo en menor medida a mitigar el impacto que tuvo la pandemia en el desempleo, beneficiando a `2569` beneficiarios en total a lo largo de los dos años (2020-2021), también se logra identificar que el numero de personas de sexo femenino contratado fue mayor al sexo masculino teniendo 1396 y 1191 personas contratadas respectivamente, adicionalmente se evidencia que mayoritariamente la población contratada este en el rango de edad de `18 – 28` años de edad siendo `1844` el número de contratados representando el `71%` de toda la población atendida a lo largo de estos dos años.
 
 También se puede observar a través de los resultados que barranquilla al ser la capital fue el lugar donde mas personas accedieron a un empleo seguido del municipio de soledad y malambo .
-``
+
 
 
 

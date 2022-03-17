@@ -288,15 +288,40 @@ PLT.SHOW()
 ```
 
  <img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%20.png?raw=true" width="1000px" align="center">
- <img src="https://https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%201%20barras%20.png?raw=true" width="1000px" align="center">
+ <br>
+ <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/municipios%20sin%20la%20capital%201%20barras%20.png?raw=true"width="1000px"align="center">
+ <br>
+ <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/municipios%20sin%20la%20capital%202%20barras%20.png"width="1000px"align="center">
+<br>
 
-<img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%201%20barras%20.png=true" width="1000px" align="center">
-<img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%202%20barras%20.png?raw=true" width="1000px" align="center">
 * listado de beneficiarios por departamento.
 
 ```
-TABL1=DF_FILTRO.GROUPBY(["CIUDAD_RESIDENCIA"])["SITUACIÓN_LABORAL"].COUNT()
+TABL1=df_filtro.GROUPBY(["CIUDAD_RESIDENCIA"])["SITUACIÓN_LABORAL"].COUNT()
 ```
+| Municipio| # Beneficiarios|
+| ----- | ---- |
+| BARANOA | 11 |          
+|BARRANQUILLA | 2256 |
+|CAMPO DE LA CRUZ  | 2 |
+|CANDELARIA | 2 |
+|GALAPA | 13 |
+|JUAN DE ACOSTA | 1 |
+|LURUACO | 4 |
+|MALAMBO | 15 |
+|MANATÍ | 1 |
+|PALMAR DE VARELA | 3 |
+|POLONUEVO | 4 |
+|PONEDERA | 3 |
+|PUERTO COLOMBIA | 15 |
+|SABANAGRANDE | 6 |
+|SABANALARGA | 8 |
+|SANTO TOMÁS | 12 |
+|SINCELEJO | 1 |
+|SOLEDAD | 225 |
+|TUBARÁ | 1 |
+|USIACURÍ | 2 |
+
 
 #   CONCLUSIÓN 
 
@@ -304,6 +329,9 @@ Finalmente, luego de realizar el refinamiento de la información y  terminado el
 
 También se puede observar a través de los resultados que barranquilla al ser la capital fue el lugar donde mas personas accedieron a un empleo seguido del municipio de soledad y malambo .
 ``
+
+
+
 
 
 

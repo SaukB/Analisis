@@ -215,7 +215,7 @@ PLT.TITLE('CONTRATACIÓN POR GENERO',FONTDICT= FONT1)
 PLT.SHOW()
 DF_FILTRO.GROUPBY(["GENERO"])["SITUACIÓN_LABORAL"].COUNT()
  ```
-  <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Atencion%20por%20genero%20total.png" width="1000px" higth="300px" align="center">
+  <img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Atencion%20por%20genero%20total.png" width="400px" height="300px" align="center">
  
 * Histograma por año 2020 y 2021 sobre personas contratadas durante cada mes de cada año.
 

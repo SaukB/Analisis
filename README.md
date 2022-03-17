@@ -261,7 +261,9 @@ PLT.XLABEL('CANTIDAD DE BENEFICIARIOS 2020-2021',FONTDICT=FONT2)
 PLT.FIGURE( FIGSIZE =(18,8))
 PLT.SHOW()
  ```
+   <img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios.png?raw=true" width="1000px" align="center">
 
+ <img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20barras.png?raw=true" width="1000px" align="center">
  
 * Beneficiarios en todos los municipios del departamento del atlántico sin la capital .
 
@@ -285,8 +287,11 @@ PLT.XLABEL('CANTIDAD DE BENEFICIARIOS 2020-2021',FONTDICT=FONT2)
 PLT.SHOW()
 ```
 
+ <img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%20.png?raw=true" width="1000px" align="center">
+ <img src="https://https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%201%20barras%20.png?raw=true" width="1000px" align="center">
 
-
+<img src="https://raw.githubusercontent.com/SaukB/Analisis/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%201%20barras%20.png=true" width="1000px" align="center">
+<img src="https://github.com/SaukB/Analisis/blob/main/Graficas/Beneficiarios%20municipios%20sin%20la%20capital%202%20barras%20.png?raw=true" width="1000px" align="center">
 * listado de beneficiarios por departamento.
 
 ```

@@ -1,12 +1,15 @@
-# Analisis
-Análisis de datos en pandemia departamento del atlántico 
+<h1 align="center">Proyecto de análisis de datos con python</h1>
 
+</br>
+**Análisis de datos en pandemia departamento del atlántico.**
+
+</br>
 
 # PROBLEMATICA
- 
+ </br>
 La empleabilidad en el departamento del atlántico ha disminuido durante el periodo en pandemia que inicio desde año 2020 tomando mayor fuerza desde que se decretó la cuarentena desde el mes de marzo, esto con el fin de disminuir el número de contagios, pero esto trajo consigo la perdida de un gran número de empleos en todo el departamento y se viera afectada la economía de ciento de hogares que no contaban con ingresos económicos.
 
-
+</br>
 
 
 
@@ -29,10 +32,17 @@ El tipo de investigación que se emplea es Cuantitativa - Longitudinal porque lo
 # OBJETIVOS
 
 
+</br>
+</br>
+
 ## Objetivo general 
 
-
+</br>
+</br>
 Evaluar como la ruta de la empleabilidad del departamento del atlántico facilito el acceso al empleo formal en años de pandemia, durante los periodos de tiempo que comprenden desde el 2020 hasta la actualidad teniendo como ultimo registro el mes de enero del presente año (2022).
+
+</br>
+</br>
 
 
 ## Objetivo especifico
@@ -48,6 +58,8 @@ Evaluar como la ruta de la empleabilidad del departamento del atlántico facilit
 
 * Implementar graficas para representar los periodos de años, características de la población y lugar de residencia.
 
+</br>
+</br>
 
 # METODOLOGIA.
 
@@ -63,6 +75,8 @@ PASO 3: Analizar los datos.
 
 PASO 4: Visualizar el análisis implementando graficas.
 
+</br>
+</br>
 
 # RESULTADO. 
 
@@ -77,6 +91,9 @@ Sector : Función Pública
 Categoría :	Economía y Finanzas
 Ultima Actualización	: 19 de enero de 2022
 Responsable de veracidad 	: Alcaldía Distrital de Barranquilla.
+
+</br>
+</br>
 
 **Lenguaje de programación utilizado.** 
 
@@ -323,12 +340,14 @@ TABL1=df_filtro.GROUPBY(["CIUDAD_RESIDENCIA"])["SITUACIÓN_LABORAL"].COUNT()
 |USIACURÍ | 2 |
 
 
+
+
 #   CONCLUSIÓN 
 
-Finalmente, luego de realizar el refinamiento de la información y  terminado el análisis se puede demostrar que “Ruta Empleabilidad” del departamento del atlántico ayudo en menor medida a mitigar el impacto que tuvo la pandemia en el desempleo, beneficiando a 2569 beneficiarios en total a lo largo de los dos años (2020-2021), también se logra identificar que el numero de personas de sexo femenino contratado fue mayor al sexo masculino teniendo 1396 y 1191 personas contratadas respectivamente, adicionalmente se evidencia que mayoritariamente la población contratada este en el rango de edad de 18 – 28 años de edad siendo 1844 el número de contratados representando el 71% de toda la población atendida a lo largo de estos dos años.
+Finalmente, luego de realizar el refinamiento de la información y  terminado el análisis se puede demostrar que “Ruta Empleabilidad” del departamento del atlántico ayudo en menor medida a mitigar el impacto que tuvo la pandemia en el desempleo, beneficiando a `2569` beneficiarios en total a lo largo de los dos años (2020-2021), también se logra identificar que el numero de personas de sexo femenino contratado fue mayor al sexo masculino teniendo 1396 y 1191 personas contratadas respectivamente, adicionalmente se evidencia que mayoritariamente la población contratada este en el rango de edad de `18 – 28` años de edad siendo `1844` el número de contratados representando el `71%` de toda la población atendida a lo largo de estos dos años.
 
 También se puede observar a través de los resultados que barranquilla al ser la capital fue el lugar donde mas personas accedieron a un empleo seguido del municipio de soledad y malambo .
-``
+
 
 
 
